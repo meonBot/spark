@@ -174,7 +174,7 @@
     <commons-lang3.version>3.8.1</commons-lang3.version>
     <datanucleus-core.version>3.2.10</datanucleus-core.version>
     <janino.version>3.0.10</janino.version>
-    <jersey.version>2.22.2</jersey.version>
+    <jersey.version>3.0.1</jersey.version>
     <joda.version>2.9.3</joda.version>
     <jodd.version>3.5.2</jodd.version>
     <jsr305.version>3.0.0</jsr305.version>
@@ -195,8 +195,8 @@
     <arrow.version>0.10.0</arrow.version>
 
     <test.java.home>${java.home}</test.java.home>
-    <test.exclude.tags></test.exclude.tags>
-    <test.include.tags></test.include.tags>
+    <test.exclude.tags/>
+    <test.include.tags/>
 
     <!-- Package to use when relocating shaded classes. -->
     <spark.shade.packageName>org.spark_project</spark.shade.packageName>
@@ -2362,7 +2362,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2375,7 +2375,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2388,7 +2388,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -2570,7 +2570,7 @@
             </goals>
             <configuration>
               <target>
-                <mkdir dir="${project.build.directory}/tmp" />
+                <mkdir dir="${project.build.directory}/tmp"/>
               </target>
             </configuration>
           </execution>
